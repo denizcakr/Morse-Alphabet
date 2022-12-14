@@ -42,7 +42,8 @@ alfabe = {
 }
 
 
-metin = input('Çevrilmesi İstediğiniz Yazıyı Giriniz: ')
+metin = input('Cevirilmesi istenilen metni giriniz: ')
+#"Enter the text you want translated"
 islem = list(map(lambda x: alfabe[x] if x in alfabe else 'EROR({}) '.format(x), list(metin)))
 print(metin+ ' => '+''.join(islem))
 
