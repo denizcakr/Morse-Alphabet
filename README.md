@@ -4,4 +4,4 @@
 2. Sayı harf kelime ve cümle kullanılabilir.
 3. Kod çıktısında boşlukları `/` simgesi ile verir.
 4. `while True: pass` exe uzantısının error vermemesi için kodun sonuna eklendi.
-5. Dosya .exe uzantısına çekilmeyecekse while True: pass` kısmı eklenmeyebilir.
+5. Dosya .exe uzantısına çekilmeyecekse `while True: pass` kısmı eklenmeyebilir.
